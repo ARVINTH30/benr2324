@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json())
 
 app.get('/', (req, res) => {
-   res.send('Aiman Gay!')
+   res.send('Hi there! Welcome to the MongoDB Atlas and Node.js example!')
 })
 
 app.listen(port, () => {
